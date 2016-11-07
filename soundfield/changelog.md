@@ -183,6 +183,9 @@ FX옵션 추가 커스터마이징폭 증가
 
 NEWCORE,Calculator추가 성능향상 및 신 알고리즘
 
+0.4.3
+
+clear+2,Hardcore2옵션추가
 
 
 
