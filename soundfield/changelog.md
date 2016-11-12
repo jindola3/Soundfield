@@ -187,6 +187,10 @@ NEWCORE,Calculator추가 성능향상 및 신 알고리즘
 
 clear+2,Hardcore2옵션추가
 
+0.4.4
+
+NEUTRALIZER추가
+
 
 
 
