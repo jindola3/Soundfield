@@ -195,7 +195,9 @@ NEUTRALIZER추가
 
 NUETRALIZER,FX옵션 각각 1개씩 더추가 MACHINEGER추가
 
+0.4.5.1
 
+Clear+3,Hardcore3추가
 
 
 
