@@ -199,7 +199,9 @@ NUETRALIZER,FX옵션 각각 1개씩 더추가 MACHINEGER추가
 
 Clear+3,Hardcore3추가
 
+0.4.6
 
+Compitable mode 추가
 
 
 
