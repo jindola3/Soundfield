@@ -203,6 +203,10 @@ Clear+3,Hardcore3추가
 
 Compitable mode 추가
 
+0.4.7
+
+일부이퀄라이저 강화,최적화,기본옵션삭제
+
 
 
 
