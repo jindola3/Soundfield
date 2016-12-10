@@ -207,6 +207,9 @@ Compitable mode 추가
 
 일부이퀄라이저 강화,최적화,기본옵션삭제
 
+0.4.8
+
+X2Amplification 추가 신함수추가 성능향상
 
 
 
