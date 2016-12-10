@@ -209,7 +209,7 @@ Compitable mode 추가
 
 0.4.8
 
-X2Amplification 추가 신함수추가 성능향상
+X2Amplification 추가 신함수추가 성능향상 최적화향상
 
 
 
