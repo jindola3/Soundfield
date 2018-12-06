@@ -1,0 +1,14 @@
+﻿#include "Doubler_Tx_Configuration1.txt"
+#include "Calculator_Tx_Configuration1.txt"
+import Doubler_Tx_Configuration1.txt
+import Calculator_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+マ=Doubler_Tx_Configuration1.txt
+
+S(Ξ(FFG^Orthoplex(E(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))@#h(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))#h(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))) @ Orthoplex(E(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))@#h(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))#h(G^e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))(e^-マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))''G^∬マπ顯dx(∬マπ顯dx)(∬マπ顯dx(∬マπ顯dx))))))))))
