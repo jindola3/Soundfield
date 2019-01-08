@@ -1,0 +1,14 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+U=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt,Time_Calculator_Configuration.txt n=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt,Time_Calculator_Configuration.txt
+
+_{92}^{235}\textrm{U}+n\rightarrow _{38}^{92}\textrm{Sr}+_{54}^{142}\textrm{Xe}+2\cdot 5n+Q(200MeV)
