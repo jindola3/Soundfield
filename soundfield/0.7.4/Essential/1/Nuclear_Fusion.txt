@@ -1,0 +1,14 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+D=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt,Time_Calculator_Configuration.txt T=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt,Time_Calculator_Configuration.txt
+
+_{1}^{2}\textrm{D}+_{1}^{3}\textrm{T}\rightarrow _{2}^{4}\textrm{He}(3\cdot 5MeV)+n(14\cdot 1MeV)
