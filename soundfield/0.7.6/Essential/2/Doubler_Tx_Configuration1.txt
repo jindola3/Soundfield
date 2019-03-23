@@ -1,0 +1,14 @@
+﻿#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "X3Amplification_Rx_Configuration1.txt"
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+import X3Amplification_Tx_Configuration1.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+魔=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt
+
+魔
