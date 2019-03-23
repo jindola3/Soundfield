@@ -1,0 +1,33 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Reality_Synchronization.txt"
+import Reality_Synchronization.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+long start = System.currentTimeMillis();
+
+愈
+
+long end = System.currentTimeMillis();
+
+Time_Calculator_Configuration.txt=Time_Calculator_Configuration.txt,Reality_Synchronization.txt
+
+if (0<(( end - start )/1000.0)<1){
+
+愈;
+
+} else {
+
+愈=0
+
+}
+
