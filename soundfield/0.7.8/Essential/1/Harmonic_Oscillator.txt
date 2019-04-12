@@ -1,0 +1,24 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+x=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt
+
+V(x)=\frac{1}{2}m\omega ^{^{2}}x^{2}
+
+±V(x)
+
+α=X3Amplification_Rx_Configuration1.txt,X3Amplification_Tx_Configuration1.txt
+
+< x|n> \frac{1}{(2^{n}n!)^{1/2}}(\frac{\alpha }{\pi })^{1/4}\cdot H_{n}(\sqrt{\alpha }x)\cdot e^{-\frac{\alpha x^{2}}{2}}
+
+E_{n}=ħ\omega(\frac{1}{2}) 
+
+±E_{n}
