@@ -1,0 +1,5 @@
+Path path = Paths.get("SSE_DNA_01.zip");
+byte[] zipFileBytes= Files.readAllBytes(path);
+
+ByteArrayInputStream bis = new ByteArrayInputStream(zipFileBytes));
+ZipInputStream zis = new ZipInputStream(bis);
