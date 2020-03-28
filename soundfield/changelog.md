@@ -438,3 +438,7 @@ Magic Window 기능 추가(차원간섭),Rife 진동수,기타 기능 추가,성
 1.0.4_SuperNova
 
 신규 알고리즘 추가
+
+1.0.5_SuperNova
+
+기존 알고리즘 보강,강화
