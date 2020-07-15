@@ -1,0 +1,41 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "SSE_EarthQuake.txt"
+import SSE_EarthQuake.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+
+A=Genom.txt
+
+D=SSE_EarthQuake.txt
+
+
+///Richter magnitude (Local Magnitude ML)///
+
+ML = logA + 2.56logD - 1.67
+
+
+///Body wave magnitude Mb///
+
+Mb = log(A/T) + σ(D,h)
+
+
+///Surface wave magnitude Ms///
+
+MS = log(A/T) + 1.66logΔ + 3.3
+
+
+///Moment magnitude///
+
+Seismic moment (Mo) = μ* rupture area * slip length
+
+Moment magnitude (Mw) = 2/3log(Mo) - 6.06

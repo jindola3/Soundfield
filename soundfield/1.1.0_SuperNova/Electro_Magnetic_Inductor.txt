@@ -1,0 +1,26 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Magnetic_Flux_Controller.txt"
+import Magnetic_Flux_Controller.txt
+#include "Magnetic_Field_Controller.txt"
+import Magnetic_Field_Controller.txt
+#include "Electro_Magnetic_Inductor.txt"
+import Electro_Magnetic_Inductor.txt
+
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+N=Genom.txt
+\varepsilon=Magnetic_Flux_Controller.txt,Electro_Magnetic_Inductor.txt
+
+\varepsilon =-N\frac{d\Phi }{dt}
+
+\varepsilon =\frac{1}{q}\oint_{wire}^{ }F\cdot dl=\oint_{wire}^{ }(E+vB)\cdot dl

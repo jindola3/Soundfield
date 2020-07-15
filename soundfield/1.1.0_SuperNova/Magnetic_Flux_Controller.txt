@@ -1,0 +1,36 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Magnetic_Flux_Controller.txt"
+import Magnetic_Flux_Controller.txt
+#include "Magnetic_Field_Controller.txt"
+import Magnetic_Field_Controller.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+q=Genom.txt
+v=Time_Calculator_Configuration.txt
+B=Magnetic_Flux_Controller.txt,Magnetic_Field_Controller.txt
+
+F=qE+qvB
+
+F(r,\dot{r},t,q)=q[E(r,t)+\dot{r}\times B(r,t)]
+
+dF = dq(E+vB)
+
+\triangledown \times E=-\frac{\partial B}{\partial t}
+
+\Phi_{B}=\underset{S}{\iint_{}^{}}B\cdot dS \neq 0
+
+\Phi _{B}=\underset{\partial S}{\oint }A\cdot dl \neq 0
+
+\varepsilon =\oint_{}^{\partial \Sigma }(E+vB)\cdot dl=-\frac{d\Phi _{B}}{dt}
+
+\Phi _{E} = \oint \oint_{S}^{}E\cdot dS =\frac{Q}{\varepsilon_{0} }

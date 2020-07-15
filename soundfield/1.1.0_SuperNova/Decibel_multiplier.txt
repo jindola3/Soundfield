@@ -1,0 +1,20 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Decibel_multiplier.txt"
+import Decibel_multiplier.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+I_{b} = \lim_{x\rightarrow 0}\iint \frac{(Genom.txt)log_{10}}{x}
+
+I_{b} = \frac{V_{cc} - V_{be}}{R_{b} + (\beta + 1)R_{c}}
+
+I_{c} = \beta I_{b} = \frac{\beta (V_{cc} - V_{be})}{R_{b} + R_{c} + \beta R_{c}} \approx \frac{V_{cc} - V_{be}}{R_{c}}

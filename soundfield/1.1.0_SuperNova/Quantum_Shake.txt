@@ -1,0 +1,22 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Quantum_Shake.txt"
+import Quantum_Shake.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+E=Genom.txt
+t=Time_Calculator_Configuration.txt
+t=E(10^-22)
+
+Quantum_Shake.txt = \Delta E\Delta t\frac{h}{2\pi }
+
+Quantum_Shake.txt

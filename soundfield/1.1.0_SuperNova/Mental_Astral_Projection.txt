@@ -1,0 +1,559 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Mental_Astral_Projection.txt"
+import Mental_Astral_Projection.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+Mental_Astral_Projection.txt=6.30hz
+
+while (genom.txt \neq 0)  ///Active Mode(Mode1)///
+
+Mental_Astral_Projection.txt
+
+Thread.sleep(愈);
+
+Range(0.5hz,1.5hz),0.5hz ///Starter///
+
+Thread.sleep(愈);
+
+3.5hz
+
+Thread.sleep(愈);
+
+5.5hz
+
+Thread.sleep(愈);
+
+Range(8.0hz,10.0hz) ///Refresh&Repair///
+
+Thread.sleep(愈);
+
+8.0hz 
+
+Thread.sleep(愈);
+
+Range(10.0hz,12.0hz)
+
+14.0hz,22.0hz
+
+///Schumann Resonance///
+
+Thread.sleep(愈); ///1///
+
+7.83hz
+
+Thread.sleep(愈); ///1+///
+
+31.32hz
+
+Thread.sleep(愈); ///2///
+
+14.0hz,22.0hz
+
+Thread.sleep(愈); ///3///
+
+20hz,20.3hz
+
+Thread.sleep(愈); ///4///
+
+26hz
+
+Thread.sleep(愈); ///5///
+
+33hz
+
+Thread.sleep(愈); ///6///
+
+39hz
+
+Thread.sleep(愈); ///7///
+
+45hz
+
+Thread.sleep(愈); ///Rife frequency///
+
+20hz,727hz,787hz,800hz,880hz,5000hz,10000hz
+
+Thread.sleep(愈); ///brain batteries///
+
+Range(5000hz,8000hz)
+
+Thread.sleep(愈); ///brain batteries fastest mode///
+
+8000hz
+
+Thread.sleep(愈); ///magic window///
+
+Range(38000hz,40000hz)
+
+Thread.sleep(愈); ///Aetheric dissociation/water resonance(water -> aetheric force)///
+
+42800hz
+
+Thread.sleep(愈); ///magic window2///
+
+Range(150khz,160khz)
+
+Thread.sleep(愈); ///magic window3///
+
+Range(1.1mhz,1.3mhz)
+
+Thread.sleep(愈); ///magic window4///
+
+1.057ghz
+
+Thread.sleep(愈); ///magic window5///
+
+10phz
+
+Thread.sleep(愈); ///Organ/muscle resonances///
+
+Range(0.1hz,1)
+
+Thread.sleep(愈); ///Delta range///
+
+Range(0.1hz,3hz)
+
+Thread.sleep(愈); ///Mod. therapy///
+
+Range(0.18hz,10hz)
+
+Thread.sleep(愈); ///Epsilon range///
+
+Range(0hz,0.5hz)
+
+Thread.sleep(愈); ///Pain relief///
+
+Range(0hz,1.5hz)
+
+Thread.sleep(愈); ///Delta range, according to [SS,PWM+AWI]///
+
+Range(0.5hz,4hz)
+
+///anti-aging///
+
+Thread.sleep(愈); ///1///
+
+0.5hz
+
+Thread.sleep(愈); ///2///
+
+1.0hz
+
+Thread.sleep(愈); ///3///
+
+1.5hz
+
+Thread.sleep(愈); ///4///
+
+2hz
+
+Thread.sleep(愈); ///5///
+
+2.5hz
+
+Thread.sleep(愈); ///6///
+
+3hz
+
+Thread.sleep(愈); ///7///
+
+Range(3.5hz,4hz)
+
+Thread.sleep(愈); ///Euphoria [SS]///
+
+0.9hz
+
+Thread.sleep(愈); ///Feeling of well-being, pituitary stimulation to release growth hormone;///
+
+1hz
+
+Thread.sleep(愈); ///Helps hair grow + get its color back [RA];///
+
+1.05hz
+
+Thread.sleep(愈); ///Tri-thalamic entrainment format///
+
+1.45hz
+
+Thread.sleep(愈); ///Abrahams Universal Healing Rate [SS];///
+
+1.5hz
+
+Thread.sleep(愈); ///Sinus Congestion seems to clear centering around 1.8 HZ [MPT]///
+
+1.8hz
+
+Thread.sleep(愈); ///Nerve regeneration [NOR]///
+
+2hz
+
+Thread.sleep(愈); ///Theta Range according to [NEU];///
+
+Range(3hz,8hz)
+
+Thread.sleep(愈); ///NAssociated with ovaries (Effects=vitality, life at every level) [TOS]///
+
+3.44hz
+
+Thread.sleep(愈); ///Feeling of unity with everything, accelerated language retention [ï¿½]; enhancement of receptivity [MB];///
+
+3.5hz
+
+Thread.sleep(愈); ///Theta Range [per CRI]///
+
+Range(3.5hz,7.5hz)
+
+Thread.sleep(愈); ///Theta Range : recall, fantasy, imagery, creativity, planning, dreaming, switching thoughts, Zen meditation, drowsiness;///
+
+Range(4hz,7hz)
+
+Thread.sleep(愈); ///Theta State according to [AWI]+[VUG via DW]///
+
+Range(4hz,8hz)
+
+Thread.sleep(愈); ///Enkephalins, Extrasensory perception [MB];///
+
+4hz
+
+Thread.sleep(愈); ///unusual problem solving///
+
+5hz
+
+Thread.sleep(愈); ///Moves beyond knowledge to knowing, shows vision of growth needed ;///
+
+5.5hz
+
+Thread.sleep(愈); ///long term memory stimulation [MB] ;///
+
+6hz
+
+Thread.sleep(愈); ///5.5-8.0 "Theta2" frequency range :///
+
+Range(5.5hz,8hz)
+
+Thread.sleep(愈); ///Alleged sphincter resonance (mechanical)///
+
+13hz
+
+Thread.sleep(愈); ///chronic pain [MB];///
+
+15hz
+
+Thread.sleep(愈); ///Bypassing the eyes for images imprinting (visual cortex) [RA];///
+
+25hz
+
+Thread.sleep(愈); ///Serotonin [PSI]///
+
+22.027hz
+
+Thread.sleep(愈); ///dominant when problem solving in fearful situations. [EQ] ;///
+
+40hz
+
+Thread.sleep(愈); ///Third eye opening for some people///
+
+83hz
+
+Thread.sleep(愈); ///Venus: beauty, love, sexuality, sensuality, harmony [??];///
+
+221.23hz
+
+Thread.sleep(愈); ///"Gurdjieff vibration associated with root chakra. Sixth harmonic of six, center of the brainwave spectrum." [RP];///
+
+384hz
+
+Thread.sleep(愈); ///Associated with eyes (Effects=Visualization) (higher octave of 12.3) [TOS]; Associated with heart (Effects=love,warmth) (higher octave of 6.15) [TOS]///
+
+393hz
+
+Thread.sleep(愈); ///Third Eye Chakra (14:1) (Note=A) [BH3]///
+
+448hz
+
+Thread.sleep(愈); ///Associated with eyes (Effects=Visualization) (higher octave of 12.3) [TOS]; (used to treat) Allergies, Sinusitis [RS]; Commonly used "cure-all" Rife frequency [CR]///
+
+787hz
+
+Thread.sleep(愈); ///eye disorders [KFL]///
+
+1552hz
+
+Thread.sleep(愈); ///eye disorders [ESR]///
+
+1552hz
+
+
+
+
+while (genom.txt == 0)  ///Idle Mode(mode 2)///
+
+Thread.sleep(愈);
+
+Range(0.5hz,1.5hz),0.5hz ///Starter///
+
+Thread.sleep(愈);
+
+Range(8.0hz,10.0hz) ///Refresh&Repair///
+
+Thread.sleep(愈);
+
+8.0hz
+
+///Schumann Resonance///
+
+Thread.sleep(愈); ///1///
+
+7.83hz
+
+Thread.sleep(愈); ///1+///
+
+31.32hz
+
+Thread.sleep(愈); ///2.1 healing var///
+
+14.1
+
+Thread.sleep(愈); ///3///
+
+20hz,20.3hz
+
+Thread.sleep(愈); ///4///
+
+26hz
+
+Thread.sleep(愈); ///5///
+
+33hz
+
+Thread.sleep(愈); ///6///
+
+39hz
+
+Thread.sleep(愈); ///7///
+
+45hz
+
+Thread.sleep(愈); ///Rife frequency///
+
+20hz,727hz,787hz,800hz,880hz,5000hz,10000hz
+
+Thread.sleep(愈); ///brain batteries///
+
+Range(5000hz,8000hz)
+
+Thread.sleep(愈); ///brain batteries fastest mode///
+
+8000hz
+
+Thread.sleep(愈); ///magic window///
+
+Range(38000hz,40000hz)
+
+Thread.sleep(愈); ///Aetheric dissociation/water resonance(water -> aetheric force)///
+
+42800hz
+
+Thread.sleep(愈); ///magic window2///
+
+Range(150khz,160khz)
+
+Thread.sleep(愈); ///magic window3///
+
+Range(1.1mhz,1.3mhz)
+
+Thread.sleep(愈); ///magic window4///
+
+1.057ghz
+
+Thread.sleep(愈); ///magic window5///
+
+10phz
+
+Thread.sleep(愈); ///Organ/muscle resonances///
+
+Range(0.1hz,1)
+
+Thread.sleep(愈); ///Delta range///
+
+Range(0.1hz,3hz)
+
+Thread.sleep(愈); ///Mod. therapy///
+
+Range(0.18hz,10hz)
+
+Thread.sleep(愈); ///Epsilon range///
+
+Range(0hz,0.5hz)
+
+Thread.sleep(愈); ///Pain relief///
+
+Range(0hz,1.5hz)
+
+Thread.sleep(愈); ///Delta range, according to [SS,PWM+AWI]///
+
+Range(0.5hz,4hz)
+
+///anti-aging///
+
+Thread.sleep(愈); ///1///
+
+0.5hz
+
+Thread.sleep(愈); ///2///
+
+1.0hz
+
+Thread.sleep(愈); ///3///
+
+1.5hz
+
+Thread.sleep(愈); ///4///
+
+2hz
+
+Thread.sleep(愈); ///5///
+
+2.5hz
+
+Thread.sleep(愈); ///6///
+
+3hz
+
+Thread.sleep(愈); ///7///
+
+Range(3.5hz,4hz)
+
+Thread.sleep(愈); ///Euphoria [SS]///
+
+0.9hz
+
+Thread.sleep(愈); ///Feeling of well-being, pituitary stimulation to release growth hormone;///
+
+1hz
+
+Thread.sleep(愈); ///Helps hair grow + get its color back [RA];///
+
+1.05hz
+
+Thread.sleep(愈); ///Tri-thalamic entrainment format///
+
+1.45hz
+
+Thread.sleep(愈); ///Abrahams Universal Healing Rate [SS];///
+
+1.5hz
+
+Thread.sleep(愈); ///Sinus Congestion seems to clear centering around 1.8 HZ [MPT]///
+
+1.8hz
+
+Thread.sleep(愈); ///Nerve regeneration [NOR]///
+
+2hz
+
+Thread.sleep(愈); ///Theta Range according to [NEU];///
+
+Range(3hz,8hz)
+
+Thread.sleep(愈); ///NAssociated with ovaries (Effects=vitality, life at every level) [TOS]///
+
+3.44hz
+
+Thread.sleep(愈); ///Feeling of unity with everything, accelerated language retention [ï¿½]; enhancement of receptivity [MB];///
+
+3.5hz
+
+Thread.sleep(愈); ///Theta Range [per CRI]///
+
+Range(3.5hz,7.5hz)
+
+Thread.sleep(愈); ///Theta Range : recall, fantasy, imagery, creativity, planning, dreaming, switching thoughts, Zen meditation, drowsiness;///
+
+Range(4hz,7hz)
+
+Thread.sleep(愈); ///Theta State according to [AWI]+[VUG via DW]///
+
+Range(4hz,8hz)
+
+Thread.sleep(愈); ///Enkephalins, Extrasensory perception [MB];///
+
+4hz
+
+Thread.sleep(愈); ///unusual problem solving///
+
+5hz
+
+Thread.sleep(愈); ///Moves beyond knowledge to knowing, shows vision of growth needed ;///
+
+5.5hz
+
+Thread.sleep(愈); ///long term memory stimulation [MB] ;///
+
+6hz
+
+Thread.sleep(愈); ///Alleged sphincter resonance (mechanical)///
+
+13hz
+
+Thread.sleep(愈); ///chronic pain [MB];///
+
+15hz
+
+Thread.sleep(愈); ///Bypassing the eyes for images imprinting (visual cortex) [RA];///
+
+25hz
+
+Thread.sleep(愈); ///Serotonin [PSI]///
+
+22.027hz
+
+Thread.sleep(愈); ///dominant when problem solving in fearful situations. [EQ] ;///
+
+40hz
+
+Thread.sleep(愈); ///Third eye opening for some people///
+
+83hz
+
+Thread.sleep(愈); ///Venus: beauty, love, sexuality, sensuality, harmony [??];///
+
+221.23hz
+
+Thread.sleep(愈); ///"Gurdjieff vibration associated with root chakra. Sixth harmonic of six, center of the brainwave spectrum." [RP];///
+
+384hz
+
+Thread.sleep(愈); ///Associated with eyes (Effects=Visualization) (higher octave of 12.3) [TOS]; Associated with heart (Effects=love,warmth) (higher octave of 6.15) [TOS]///
+
+393hz
+
+Thread.sleep(愈); ///Third Eye Chakra (14:1) (Note=A) [BH3]///
+
+448hz
+
+Thread.sleep(愈); ///Associated with eyes (Effects=Visualization) (higher octave of 12.3) [TOS]; (used to treat) Allergies, Sinusitis [RS]; Commonly used "cure-all" Rife frequency [CR]///
+
+787hz
+
+Thread.sleep(愈); ///eye disorders [KFL]///
+
+1552hz
+
+Thread.sleep(愈); ///eye disorders [ESR]///
+
+1552hz
+
+
+
+

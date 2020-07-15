@@ -1,0 +1,18 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Aharanov–Bohm effect.txt"
+import Aharanov–Bohm effect.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+\frac{ℏ}{2m}\Psi Ꞌ = iℏ\frac{\partial \Psi Ꞌ}{\partial t}
+
+genom.txt = \frac{q}{ℏ}\oint Ads =\frac{q\Phi }{2\pi ℏ}\oint (\frac{1}{r})(rd\phi ) = \pm \frac{q\Phi }{2ℏ}

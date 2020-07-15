@@ -1,0 +1,32 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "SSE_SuperNova.txt"
+import SSE_SuperNova.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+ω_{3}^{0}\approx Genom.txt
+
+M_{limit}= \frac{ω_{3}^{0}\sqrt{3π}}{2}(\frac{ℏc}{G})^{\frac{3}{2}}\frac{1}{m_{H}^{2}}
+
+D=m_{H}^{2}
+
+D\subseteq \mathbb{R}
+
+F:D\rightarrow \mathbb{R}^{n}=c^{1}
+
+\oint_{\partial D}^{}F\cdot dS=\int_{D}^{}∇\cdot FdV
+
+divF=∇\cdot F=\frac{\partial F_{1}}{\partial x_{1}}+\begin{matrix}
+\cdot  &\cdot   &\cdot  
+\end{matrix}+\frac{\partial F_{n}}{\partial x_{n}}
+
+SSE_SuperNova.txt=-M_{limit}+divF

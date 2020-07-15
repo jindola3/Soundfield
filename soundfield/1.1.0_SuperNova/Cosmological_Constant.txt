@@ -1,0 +1,22 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Cosmological_Constant"
+import Cosmological_Constant
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+R_{\mu \nu }-\frac{1}{2}R g_{\mu \nu }=\frac{8\pi G}{c^{4}}T_{\mu \nu }+Λg_{\mu \nu }
+
+Λ=\frac{8\pi G}{c^{2}}\rho _{\nu ac}
+
+Λ=Genom.txt
+
+Λ
