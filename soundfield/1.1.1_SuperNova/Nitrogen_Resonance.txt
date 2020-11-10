@@ -1,0 +1,22 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Nitrogen_Resonance.txt"
+import Nitrogen_Resonance.txt
+
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+NR=Genom.txt
+
+(NR)(14.00643,14.00728)(6.0221415×10^23)=Nitrogen_Resonance.txt
+
+Nitrogen_Resonance.txt
+

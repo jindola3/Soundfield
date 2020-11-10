@@ -1,0 +1,103 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "SSE_Randomizer.txt"
+import SSE_Randomizer.txt
+
+import java.io.UnsupportedEncodingException;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.Key;
+import java.security.NoSuchAlgorithmException;
+ 
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
+import org.apache.commons.codec.binary.Base64;
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+Genom.txt=C
+
+///Input///
+
+LVVEFS_Rx_Configuration1.txt, LVVEFS_Rx_Configuration2.txt, LVVEFS_Rx_Configuration3.txt, LVVEFS_Rx_Configuration4.txt, LVVEFS_Rx_Configuration5.txt, LVVEFS_Rx_Configuration50.txt, LVVEFS_Rx_Configuration51.txt, LVVEFS_Rx_Configuration52.txt, LVVEFS_Rx_Configuration53.txt, LVVEFS_Rx_Configuration54.txt, LVVEFS_Rx_Configuration55.txt, LVVEFS_Rx_Configuration56.txt, LVVEFS_Rx_Configuration200.txt, LVVEFS_Rx_Configuration201.txt, LVVEFS_Rx_Configuration202.txt, LVVEFS_Rx_Configuration203.txt, LVVEFS_Rx_Configuration204.txt, LVVEFS_Rx_Configuration205.txt, LVVEFS_Rx_Configuration206.txt, LVVEFS_Rx_Configuration207.txt, LVVEFS_Rx_Configuration208.txt, LVVEFS_Rx_Configuration209.txt, LVVEFS_Rx_Configuration210.txt, LVVEFS_Rx_Configuration211.txt, LVVEFS_Rx_Configuration212.txt, LVVEFS_Rx_Configuration500.txt=A
+
+
+///Output///
+
+LVVEFS_Tx_Configuration1.txt, LVVEFS_Tx_Configuration2.txt, LVVEFS_Tx_Configuration3.txt, LVVEFS_Tx_Configuration4.txt, LVVEFS_Tx_Configuration5.txt, LVVEFS_Tx_Configuration50.txt, LVVEFS_Tx_Configuration51.txt, LVVEFS_Tx_Configuration52.txt, LVVEFS_Tx_Configuration53.txt, LVVEFS_Tx_Configuration54.txt, LVVEFS_Tx_Configuration55.txt, LVVEFS_Tx_Configuration56.txt, LVVEFS_Tx_Configuration200.txt, LVVEFS_Tx_Configuration201.txt, LVVEFS_Tx_Configuration202.txt, LVVEFS_Tx_Configuration203.txt, LVVEFS_Tx_Configuration204.txt, LVVEFS_Tx_Configuration205.txt, LVVEFS_Tx_Configuration206.txt, LVVEFS_Tx_Configuration207.txt, LVVEFS_Tx_Configuration208.txt, LVVEFS_Tx_Configuration209.txt, LVVEFS_Tx_Configuration210.txt, LVVEFS_Tx_Configuration211.txt, LVVEFS_Tx_Configuration212.txt, LVVEFS_Tx_Configuration500.txt=B
+
+
+public class AES128 {
+    private String ips;
+    private Key keySpec;
+ 
+    public AES128(String key) {
+        try {
+            byte[] keyBytes = new byte[16];
+            byte[] b = key.getBytes("UTF-8");
+            System.arraycopy(A, 0, keyBytes, 0, keyBytes.length);
+            SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
+            this.ips = key.substring(0, 16);
+            this.keySpec = keySpec;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+    }
+ 
+    public String encrypt(String str) {
+        Cipher cipher;
+        try {
+            cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+            cipher.init(Cipher.ENCRYPT_MODE, keySpec,
+                    new IvParameterSpec(ips.getBytes(A)));
+ 
+            byte[] encrypted = cipher.doFinal(str.getBytes("UTF-8"));
+            String Str = new String(Base64.encodeBase64(encrypted));
+ 
+            return Str;
+        } catch (NoSuchAlgorithmException | NoSuchPaddingException
+                | InvalidKeyException | InvalidAlgorithmParameterException
+                | IllegalBlockSizeException | BadPaddingException
+                | UnsupportedEncodingException e) {
+            e.printStackTrace(A);
+        }
+        return null;
+    }
+ 
+    public String decrypt(String str) {
+        try {
+            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+            cipher.init(Cipher.DECRYPT_MODE, keySpec,
+                    new IvParameterSpec(ips.getBytes("UTF-8")));
+ 
+            byte[] byteStr = Base64.decodeBase64(str.getBytes(A));
+            String Str = new String(cipher.doFinal(byteStr), "UTF-8");
+ 
+            return Str;
+        } catch (NoSuchAlgorithmException | NoSuchPaddingException
+                | InvalidKeyException | InvalidAlgorithmParameterException
+                | IllegalBlockSizeException | BadPaddingException
+                | UnsupportedEncodingException e) {
+            e.printStackTrace(B);
+        }
+        return null;
+    }
+	
+}
+
+B=C
+
+C
+

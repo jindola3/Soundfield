@@ -1,0 +1,34 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "SSE_RNA_01.txt"
+import SSE_RNA_01.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+public class ForLoop {
+
+      public static void main(String[] args) {        
+	  
+            愈=Time_Calculator_Configuration.txt;
+
+            愈;
+			
+            for (int i = SSE_RNA_01.txt; i <= Genom.txt; i++)
+
+                 Path path = Paths.get("SSE_DNA_01.zip");
+                 byte[] zipFileBytes= Files.readAllBytes(path);
+
+                 ByteArrayInputStream bis = new ByteArrayInputStream(zipFileBytes));
+                 ZipInputStream zis = new ZipInputStream(bis);    
+
+      }
+
+}

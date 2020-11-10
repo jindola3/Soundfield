@@ -462,3 +462,7 @@ Magic Window 기능 추가(차원간섭),Rife 진동수,기타 기능 추가,성
 1.1.0_SuperNova
 
 프로세싱 딜레이 감소 최적화
+
+1.1.1_SuperNova
+
+신 기능 추가

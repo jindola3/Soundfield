@@ -1,0 +1,524 @@
+#include "X3Amplification_Rx_Configuration1.txt"
+import X3Amplification_Rx_Configuration1.txt
+#include "X3Amplification_Tx_Configuration1.txt"
+import X3Amplification_Tx_Configuration1.txt
+#include "Time_Calculator_Configuration.txt"
+import Time_Calculator_Configuration.txt
+#include "Genom.txt"
+import Genom.txt
+#include "Quantum_Entanglement.txt"
+import Quantum_Entanglement.txt
+
+愈=Time_Calculator_Configuration.txt
+
+愈
+
+Genom.txt=\mathcal {H}
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "14.775ex",
+    height: "2.509ex",
+    style: {
+      verticalAlign: "-0.671ex"
+    },
+    ariaLabelledby: "MathJax-SVG-1-Title",
+    viewBox: "0 -791.3 6361.2 1080.4"
+  }, /*#__PURE__*/_react.default.createElement("defs", {
+    ariaHidden: "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJCAL-48",
+    strokeWidth: "1",
+    d: "M18 487q0 9 11 30t38 49 60 55 89 44 114 18q29 0 46-14t21-26 3-21q0-38-18-134t-34-145q0-1 119-1h120l7 24q21 74 54 168t42 107q11 15 33 28t41 14q19 0 19-11l-33-94q-34-93-73-232t-52-245q-1-9-2-19t-1-17-1-9q0-36 37-36 8 0 43 5 8 27 35 44t49 18q18 0 18-12t-12-31-37-41-69-36-97-15q-20 0-26 2-40 15-40 59v10q9 106 40 227l7 31-4-1q-4-2-9-3t-7-3l-111-1H328l-7-24q-14-47-46-142T232 0q-13-16-36-28t-41-13q-6 0-10 2t-5 5-1 5q0 5 9 26t33 89 52 161q7 23 7 25 0 1-46 1h-25q-30 0-30 12 0 10 14 23t34 24q19 9 49 10l24 1 4 16q14 55 25 123t11 96q0 35-40 35h-6q-56 0-85-21-21-14-42-48t-23-36q-32-30-67-33-19 0-19 12z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-3D",
+    strokeWidth: "1",
+    d: "M56 347q0 13 14 20h637q15-8 15-20 0-11-14-19l-318-1H72q-16 5-16 20zm0-194q0 15 16 20h636q14-10 14-20 0-13-15-20H70q-14 7-14 20z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-41",
+    strokeWidth: "1",
+    d: "M208 74q0-24 46-28 18 0 18-11 0-1-2-13-3-14-6-18t-13-4h-12q-10 0-34 1t-64 1Q70 2 50 0h-8q-7 7-7 11 2 27 13 35h14q70 3 102 50 6 6 181 305t178 303q7 12 24 12h25q6-9 6-10l28-323q28-323 30-326 5-11 65-11 25 0 25-10 0-2-3-14-3-15-5-18t-14-4h-14q-11 0-39 1t-73 1q-94 0-123-2h-12q-6 6-6 9t2 18q4 13 6 16l4 3h20q54 3 64 17l-12 150H283l-34-58q-41-69-41-81zm308 186q0 11-12 156t-14 146l-27-43q-16-27-63-107l-90-152 103-1q103 0 103 1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2297",
+    strokeWidth: "1",
+    d: "M56 250q0 144 100 238t228 95q146 0 242-98t96-235q0-140-97-236T390-83q-141 0-237 97T56 250zm526 221q-51 39-86 52-50 19-115 19-57 0-109-23t-76-48l193-193 96 97 97 96zm-415-29q-72-80-72-192 0-113 72-192l192 192-192 192zM610 58q72 80 72 192 0 113-72 192L418 250 610 58zM196 29q13-13 34-27t65-29 93-15q21 0 41 2t36 7 31 10 26 12 22 12 17 12 13 9 8 7L388 222 196 29z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-42",
+    strokeWidth: "1",
+    d: "M231 637q-27 0-32 1t-5 11q0 27 11 33 1 1 130 1 259 0 273-2 63-10 105-45t43-92q0-64-58-115t-133-69l-10-3q64-9 105-46t42-92q0-73-72-141T453 1q-7-1-211-1Q42 0 39 2q-4 3-4 8 0 7 2 14 5 19 10 21 4 1 15 1h6q27 0 60 3 14 3 19 12 3 4 72 278t69 289q0 7-57 9zm418-93q0 30-15 56t-49 34q-7 2-92 3h-42q-22 0-35-1h-13q-15-1-19-10-2-4-32-120 0-3-1-6l-31-126h81q81 0 93 2 60 10 107 58t48 110zm-54-315q0 44-23 73t-60 34q-6 1-83 1-118 0-119-1 0-2-17-73t-35-141l-18-70q0-4 12-4t81-2q89 0 96 1 62 7 114 58t52 124z"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    fill: "currentColor",
+    stroke: "currentColor",
+    strokeWidth: "0",
+    ariaHidden: "true",
+    transform: "scale(1 -1)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJCAL-48"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1123",
+    xlinkHref: "#E1-MJMAIN-3D"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(2179)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJCAL-48"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1195",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "3877",
+    xlinkHref: "#E1-MJMAIN-2297"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(4878)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJCAL-48"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1195",
+    y: "-213",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-42"
+  }))));
+}
+
+var _default = Icon;
+exports.default = _default;
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "7.869ex",
+    height: "2.843ex",
+    style: {
+      verticalAlign: "-0.838ex"
+    },
+    ariaLabelledby: "MathJax-SVG-1-Title",
+    viewBox: "0 -863.1 3388.1 1223.9"
+  }, /*#__PURE__*/_react.default.createElement("defs", {
+    ariaHidden: "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-7C",
+    strokeWidth: "1",
+    d: "M139-249h-2q-12 0-18 14v486l1 486q10 13 19 13 13 0 20-15v-970q-8-14-18-14h-2z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-3C8",
+    strokeWidth: "1",
+    d: "M161 441q41 0 65-24t24-59q0-20-32-106t-31-125q3-42 27-66 21-18 43-24 18-8 31-8h1l82 331q84 331 85 332 3 2 16 2 20 0 20-7 0-9-81-331-82-328-82-329t6-1q86 0 163 88t78 164q0 24-8 41t-18 24-18 18-8 23q0 21 17 40t42 19q19 0 35-18t16-59q0-29-11-78t-18-68q-32-95-113-163T329-11h-10l-23-93q-24-94-24-95-2-6-20-6h-13q-6 6-6 8 0 5 23 95t23 93q-7 1-14 1-159 22-159 147 0 35 33 125t34 115v14q0 3-4 7t-11 4h-4q-23 0-42-19t-30-41-17-42-8-22q-2-2-16-2H27q-6 6-6 9 0 12 13 46t48 71 79 37z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-27E9",
+    strokeWidth: "1",
+    d: "M55 732q1 7 6 12t14 6q10 0 17-10 3-7 94-246t92-244T187 6 92-240q-7-10-17-10-8 0-13 5t-7 13q0 5 90 243 91 237 91 239t-91 239Q55 727 55 732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2208",
+    strokeWidth: "1",
+    d: "M84 250q0 122 82 200t194 89h17q16 0 42 1t50 0h99q15-8 15-20 0-9-13-19l-104-1q-111-1-137-6-49-12-87-36t-59-49-36-55-18-48-5-34v-2h444q15-8 15-20t-15-20H124v-2q0-21 10-51t33-65 64-64 97-41q27-6 138-7h104q13-10 13-20 0-12-15-20H446q-18 0-29-1-155 0-245 86-88 82-88 205z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJCAL-48",
+    strokeWidth: "1",
+    d: "M18 487q0 9 11 30t38 49 60 55 89 44 114 18q29 0 46-14t21-26 3-21q0-38-18-134t-34-145q0-1 119-1h120l7 24q21 74 54 168t42 107q11 15 33 28t41 14q19 0 19-11l-33-94q-34-93-73-232t-52-245q-1-9-2-19t-1-17-1-9q0-36 37-36 8 0 43 5 8 27 35 44t49 18q18 0 18-12t-12-31-37-41-69-36-97-15q-20 0-26 2-40 15-40 59v10q9 106 40 227l7 31-4-1q-4-2-9-3t-7-3l-111-1H328l-7-24q-14-47-46-142T232 0q-13-16-36-28t-41-13q-6 0-10 2t-5 5-1 5q0 5 9 26t33 89 52 161q7 23 7 25 0 1-46 1h-25q-30 0-30 12 0 10 14 23t34 24q19 9 49 10l24 1 4 16q14 55 25 123t11 96q0 35-40 35h-6q-56 0-85-21-21-14-42-48t-23-36q-32-30-67-33-19 0-19 12z"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    fill: "currentColor",
+    stroke: "currentColor",
+    strokeWidth: "0",
+    ariaHidden: "true",
+    transform: "scale(1 -1)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "278",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "930",
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1597",
+    xlinkHref: "#E1-MJMAIN-2208"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "2542",
+    xlinkHref: "#E1-MJCAL-48"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "18.077ex",
+    height: "2.843ex",
+    style: {
+      verticalAlign: "-0.838ex"
+    },
+    ariaLabelledby: "MathJax-SVG-1-Title",
+    viewBox: "0 -863.1 7783.2 1223.9"
+  }, /*#__PURE__*/_react.default.createElement("defs", {
+    ariaHidden: "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-7C",
+    strokeWidth: "1",
+    d: "M139-249h-2q-12 0-18 14v486l1 486q10 13 19 13 13 0 20-15v-970q-8-14-18-14h-2z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-3C8",
+    strokeWidth: "1",
+    d: "M161 441q41 0 65-24t24-59q0-20-32-106t-31-125q3-42 27-66 21-18 43-24 18-8 31-8h1l82 331q84 331 85 332 3 2 16 2 20 0 20-7 0-9-81-331-82-328-82-329t6-1q86 0 163 88t78 164q0 24-8 41t-18 24-18 18-8 23q0 21 17 40t42 19q19 0 35-18t16-59q0-29-11-78t-18-68q-32-95-113-163T329-11h-10l-23-93q-24-94-24-95-2-6-20-6h-13q-6 6-6 8 0 5 23 95t23 93q-7 1-14 1-159 22-159 147 0 35 33 125t34 115v14q0 3-4 7t-11 4h-4q-23 0-42-19t-30-41-17-42-8-22q-2-2-16-2H27q-6 6-6 9 0 12 13 46t48 71 79 37z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-27E9",
+    strokeWidth: "1",
+    d: "M55 732q1 7 6 12t14 6q10 0 17-10 3-7 94-246t92-244T187 6 92-240q-7-10-17-10-8 0-13 5t-7 13q0 5 90 243 91 237 91 239t-91 239Q55 727 55 732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-3D",
+    strokeWidth: "1",
+    d: "M56 347q0 13 14 20h637q15-8 15-20 0-11-14-19l-318-1H72q-16 5-16 20zm0-194q0 15 16 20h636q14-10 14-20 0-13-15-20H70q-14 7-14 20z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-41",
+    strokeWidth: "1",
+    d: "M208 74q0-24 46-28 18 0 18-11 0-1-2-13-3-14-6-18t-13-4h-12q-10 0-34 1t-64 1Q70 2 50 0h-8q-7 7-7 11 2 27 13 35h14q70 3 102 50 6 6 181 305t178 303q7 12 24 12h25q6-9 6-10l28-323q28-323 30-326 5-11 65-11 25 0 25-10 0-2-3-14-3-15-5-18t-14-4h-14q-11 0-39 1t-73 1q-94 0-123-2h-12q-6 6-6 9t2 18q4 13 6 16l4 3h20q54 3 64 17l-12 150H283l-34-58q-41-69-41-81zm308 186q0 11-12 156t-14 146l-27-43q-16-27-63-107l-90-152 103-1q103 0 103 1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2297",
+    strokeWidth: "1",
+    d: "M56 250q0 144 100 238t228 95q146 0 242-98t96-235q0-140-97-236T390-83q-141 0-237 97T56 250zm526 221q-51 39-86 52-50 19-115 19-57 0-109-23t-76-48l193-193 96 97 97 96zm-415-29q-72-80-72-192 0-113 72-192l192 192-192 192zM610 58q72 80 72 192 0 113-72 192L418 250 610 58zM196 29q13-13 34-27t65-29 93-15q21 0 41 2t36 7 31 10 26 12 22 12 17 12 13 9 8 7L388 222 196 29z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-42",
+    strokeWidth: "1",
+    d: "M231 637q-27 0-32 1t-5 11q0 27 11 33 1 1 130 1 259 0 273-2 63-10 105-45t43-92q0-64-58-115t-133-69l-10-3q64-9 105-46t42-92q0-73-72-141T453 1q-7-1-211-1Q42 0 39 2q-4 3-4 8 0 7 2 14 5 19 10 21 4 1 15 1h6q27 0 60 3 14 3 19 12 3 4 72 278t69 289q0 7-57 9zm418-93q0 30-15 56t-49 34q-7 2-92 3h-42q-22 0-35-1h-13q-15-1-19-10-2-4-32-120 0-3-1-6l-31-126h81q81 0 93 2 60 10 107 58t48 110zm-54-315q0 44-23 73t-60 34q-6 1-83 1-118 0-119-1 0-2-17-73t-35-141l-18-70q0-4 12-4t81-2q89 0 96 1 62 7 114 58t52 124z"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    fill: "currentColor",
+    stroke: "currentColor",
+    strokeWidth: "0",
+    ariaHidden: "true",
+    transform: "scale(1 -1)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "278",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "930",
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1597",
+    xlinkHref: "#E1-MJMAIN-3D"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "2653",
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "2932",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(3583)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "4825",
+    xlinkHref: "#E1-MJMAIN-2297"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "5826",
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "6105",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(6756)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-213",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-42"
+  }))));
+}
+
+var _default = Icon;
+exports.default = _default;
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "10.799ex",
+    height: "2.843ex",
+    style: {
+      verticalAlign: "-0.838ex"
+    },
+    ariaLabelledby: "MathJax-SVG-1-Title",
+    viewBox: "0 -863.1 4649.4 1223.9"
+  }, /*#__PURE__*/_react.default.createElement("defs", {
+    ariaHidden: "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-7C",
+    strokeWidth: "1",
+    d: "M139-249h-2q-12 0-18 14v486l1 486q10 13 19 13 13 0 20-15v-970q-8-14-18-14h-2z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-3C8",
+    strokeWidth: "1",
+    d: "M161 441q41 0 65-24t24-59q0-20-32-106t-31-125q3-42 27-66 21-18 43-24 18-8 31-8h1l82 331q84 331 85 332 3 2 16 2 20 0 20-7 0-9-81-331-82-328-82-329t6-1q86 0 163 88t78 164q0 24-8 41t-18 24-18 18-8 23q0 21 17 40t42 19q19 0 35-18t16-59q0-29-11-78t-18-68q-32-95-113-163T329-11h-10l-23-93q-24-94-24-95-2-6-20-6h-13q-6 6-6 8 0 5 23 95t23 93q-7 1-14 1-159 22-159 147 0 35 33 125t34 115v14q0 3-4 7t-11 4h-4q-23 0-42-19t-30-41-17-42-8-22q-2-2-16-2H27q-6 6-6 9 0 12 13 46t48 71 79 37z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-41",
+    strokeWidth: "1",
+    d: "M208 74q0-24 46-28 18 0 18-11 0-1-2-13-3-14-6-18t-13-4h-12q-10 0-34 1t-64 1Q70 2 50 0h-8q-7 7-7 11 2 27 13 35h14q70 3 102 50 6 6 181 305t178 303q7 12 24 12h25q6-9 6-10l28-323q28-323 30-326 5-11 65-11 25 0 25-10 0-2-3-14-3-15-5-18t-14-4h-14q-11 0-39 1t-73 1q-94 0-123-2h-12q-6 6-6 9t2 18q4 13 6 16l4 3h20q54 3 64 17l-12 150H283l-34-58q-41-69-41-81zm308 186q0 11-12 156t-14 146l-27-43q-16-27-63-107l-90-152 103-1q103 0 103 1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-27E9",
+    strokeWidth: "1",
+    d: "M55 732q1 7 6 12t14 6q10 0 17-10 3-7 94-246t92-244T187 6 92-240q-7-10-17-10-8 0-13 5t-7 13q0 5 90 243 91 237 91 239t-91 239Q55 727 55 732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2208",
+    strokeWidth: "1",
+    d: "M84 250q0 122 82 200t194 89h17q16 0 42 1t50 0h99q15-8 15-20 0-9-13-19l-104-1q-111-1-137-6-49-12-87-36t-59-49-36-55-18-48-5-34v-2h444q15-8 15-20t-15-20H124v-2q0-21 10-51t33-65 64-64 97-41q27-6 138-7h104q13-10 13-20 0-12-15-20H446q-18 0-29-1-155 0-245 86-88 82-88 205z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJCAL-48",
+    strokeWidth: "1",
+    d: "M18 487q0 9 11 30t38 49 60 55 89 44 114 18q29 0 46-14t21-26 3-21q0-38-18-134t-34-145q0-1 119-1h120l7 24q21 74 54 168t42 107q11 15 33 28t41 14q19 0 19-11l-33-94q-34-93-73-232t-52-245q-1-9-2-19t-1-17-1-9q0-36 37-36 8 0 43 5 8 27 35 44t49 18q18 0 18-12t-12-31-37-41-69-36-97-15q-20 0-26 2-40 15-40 59v10q9 106 40 227l7 31-4-1q-4-2-9-3t-7-3l-111-1H328l-7-24q-14-47-46-142T232 0q-13-16-36-28t-41-13q-6 0-10 2t-5 5-1 5q0 5 9 26t33 89 52 161q7 23 7 25 0 1-46 1h-25q-30 0-30 12 0 10 14 23t34 24q19 9 49 10l24 1 4 16q14 55 25 123t11 96q0 35-40 35h-6q-56 0-85-21-21-14-42-48t-23-36q-32-30-67-33-19 0-19 12z"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    fill: "currentColor",
+    stroke: "currentColor",
+    strokeWidth: "0",
+    ariaHidden: "true",
+    transform: "scale(1 -1)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(278)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "921",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1560",
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "2227",
+    xlinkHref: "#E1-MJMAIN-2208"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(3173)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJCAL-48"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "1195",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  }))));
+}
+
+var _default = Icon;
+exports.default = _default;
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "32.842ex",
+    height: "3.009ex",
+    style: {
+      verticalAlign: "-0.838ex"
+    },
+    ariaLabelledby: "MathJax-SVG-1-Title",
+    viewBox: "0 -934.9 14140.5 1295.7"
+  }, /*#__PURE__*/_react.default.createElement("defs", {
+    ariaHidden: "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-7C",
+    strokeWidth: "1",
+    d: "M139-249h-2q-12 0-18 14v486l1 486q10 13 19 13 13 0 20-15v-970q-8-14-18-14h-2z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-3C8",
+    strokeWidth: "1",
+    d: "M161 441q41 0 65-24t24-59q0-20-32-106t-31-125q3-42 27-66 21-18 43-24 18-8 31-8h1l82 331q84 331 85 332 3 2 16 2 20 0 20-7 0-9-81-331-82-328-82-329t6-1q86 0 163 88t78 164q0 24-8 41t-18 24-18 18-8 23q0 21 17 40t42 19q19 0 35-18t16-59q0-29-11-78t-18-68q-32-95-113-163T329-11h-10l-23-93q-24-94-24-95-2-6-20-6h-13q-6 6-6 8 0 5 23 95t23 93q-7 1-14 1-159 22-159 147 0 35 33 125t34 115v14q0 3-4 7t-11 4h-4q-23 0-42-19t-30-41-17-42-8-22q-2-2-16-2H27q-6 6-6 9 0 12 13 46t48 71 79 37z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-27E9",
+    strokeWidth: "1",
+    d: "M55 732q1 7 6 12t14 6q10 0 17-10 3-7 94-246t92-244T187 6 92-240q-7-10-17-10-8 0-13 5t-7 13q0 5 90 243 91 237 91 239t-91 239Q55 727 55 732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-41",
+    strokeWidth: "1",
+    d: "M208 74q0-24 46-28 18 0 18-11 0-1-2-13-3-14-6-18t-13-4h-12q-10 0-34 1t-64 1Q70 2 50 0h-8q-7 7-7 11 2 27 13 35h14q70 3 102 50 6 6 181 305t178 303q7 12 24 12h25q6-9 6-10l28-323q28-323 30-326 5-11 65-11 25 0 25-10 0-2-3-14-3-15-5-18t-14-4h-14q-11 0-39 1t-73 1q-94 0-123-2h-12q-6 6-6 9t2 18q4 13 6 16l4 3h20q54 3 64 17l-12 150H283l-34-58q-41-69-41-81zm308 186q0 11-12 156t-14 146l-27-43q-16-27-63-107l-90-152 103-1q103 0 103 1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2297",
+    strokeWidth: "1",
+    d: "M56 250q0 144 100 238t228 95q146 0 242-98t96-235q0-140-97-236T390-83q-141 0-237 97T56 250zm526 221q-51 39-86 52-50 19-115 19-57 0-109-23t-76-48l193-193 96 97 97 96zm-415-29q-72-80-72-192 0-113 72-192l192 192-192 192zM610 58q72 80 72 192 0 113-72 192L418 250 610 58zM196 29q13-13 34-27t65-29 93-15q21 0 41 2t36 7 31 10 26 12 22 12 17 12 13 9 8 7L388 222 196 29z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMATHI-42",
+    strokeWidth: "1",
+    d: "M231 637q-27 0-32 1t-5 11q0 27 11 33 1 1 130 1 259 0 273-2 63-10 105-45t43-92q0-64-58-115t-133-69l-10-3q64-9 105-46t42-92q0-73-72-141T453 1q-7-1-211-1Q42 0 39 2q-4 3-4 8 0 7 2 14 5 19 10 21 4 1 15 1h6q27 0 60 3 14 3 19 12 3 4 72 278t69 289q0 7-57 9zm418-93q0 30-15 56t-49 34q-7 2-92 3h-42q-22 0-35-1h-13q-15-1-19-10-2-4-32-120 0-3-1-6l-31-126h81q81 0 93 2 60 10 107 58t48 110zm-54-315q0 44-23 73t-60 34q-6 1-83 1-118 0-119-1 0-2-17-73t-35-141l-18-70q0-4 12-4t81-2q89 0 96 1 62 7 114 58t52 124z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2B",
+    strokeWidth: "1",
+    d: "M56 237v13l14 20h299v150l1 150q10 13 19 13 13 0 20-15V270h298q15-8 15-20t-15-20H409V-68q-8-14-18-14h-4q-12 0-18 14v298H70q-14 7-14 20z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2032",
+    strokeWidth: "1",
+    d: "M79 43q-6 0-27 6T30 61q0 7 55 232t61 235q15 32 52 32 20 0 42-15t22-44q0-5-2-15-1-7-87-223T84 45t-5-2z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJMAIN-2208",
+    strokeWidth: "1",
+    d: "M84 250q0 122 82 200t194 89h17q16 0 42 1t50 0h99q15-8 15-20 0-9-13-19l-104-1q-111-1-137-6-49-12-87-36t-59-49-36-55-18-48-5-34v-2h444q15-8 15-20t-15-20H124v-2q0-21 10-51t33-65 64-64 97-41q27-6 138-7h104q13-10 13-20 0-12-15-20H446q-18 0-29-1-155 0-245 86-88 82-88 205z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    id: "E1-MJCAL-48",
+    strokeWidth: "1",
+    d: "M18 487q0 9 11 30t38 49 60 55 89 44 114 18q29 0 46-14t21-26 3-21q0-38-18-134t-34-145q0-1 119-1h120l7 24q21 74 54 168t42 107q11 15 33 28t41 14q19 0 19-11l-33-94q-34-93-73-232t-52-245q-1-9-2-19t-1-17-1-9q0-36 37-36 8 0 43 5 8 27 35 44t49 18q18 0 18-12t-12-31-37-41-69-36-97-15q-20 0-26 2-40 15-40 59v10q9 106 40 227l7 31-4-1q-4-2-9-3t-7-3l-111-1H328l-7-24q-14-47-46-142T232 0q-13-16-36-28t-41-13q-6 0-10 2t-5 5-1 5q0 5 9 26t33 89 52 161q7 23 7 25 0 1-46 1h-25q-30 0-30 12 0 10 14 23t34 24q19 9 49 10l24 1 4 16q14 55 25 123t11 96q0 35-40 35h-6q-56 0-85-21-21-14-42-48t-23-36q-32-30-67-33-19 0-19 12z"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    fill: "currentColor",
+    stroke: "currentColor",
+    strokeWidth: "0",
+    ariaHidden: "true",
+    transform: "scale(1 -1)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "278",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(930)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "2172",
+    xlinkHref: "#E1-MJMAIN-2297"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "3173",
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "3451",
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(4103)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-213",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-42"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "5351",
+    xlinkHref: "#E1-MJMAIN-2B"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "6352",
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(6631)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "921",
+    y: "583",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMAIN-2032"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(7577)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-230",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-41"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "8819",
+    xlinkHref: "#E1-MJMAIN-2297"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "9820",
+    xlinkHref: "#E1-MJMAIN-7C"
+  }), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(10099)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMATHI-3C8"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "921",
+    y: "583",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMAIN-2032"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "translate(11045)"
+  }, /*#__PURE__*/_react.default.createElement("use", {
+    xlinkHref: "#E1-MJMAIN-27E9"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "550",
+    y: "-213",
+    transform: "scale(.707)",
+    xlinkHref: "#E1-MJMATHI-42"
+  })), /*#__PURE__*/_react.default.createElement("use", {
+    x: "12349",
+    xlinkHref: "#E1-MJMAIN-2208"
+  }), /*#__PURE__*/_react.default.createElement("use", {
+    x: "13294",
+    xlinkHref: "#E1-MJCAL-48"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
